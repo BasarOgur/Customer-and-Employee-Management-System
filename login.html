@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="newStyles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <select id="role">
+            <option value="Customer">Customer</option>
+            <option value="Employee">Employee</option>
+        </select>
+        <button onclick="login()">Login</button>
+        <button onclick="showSignUp()">Sign Up</button>
+        
+    </div>
+
+    <script>
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const role = document.getElementById('role').value;
+
+            const response = await fetch('http://localhost:5139/api/auth/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Username: username, Password: password })
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                console.log(result);  // role bilgisi burada dönecek
+
+                // Kullanıcı rolüne göre yönlendirme yapılıyor
+                if (result.role === 'Customer') {
+                    window.location.href = 'customer.html';
+                } else if (result.role === 'Employee') {
+                    window.location.href = 'employee.html';
+                } else {
+                    alert('Login failed');
+                }
+            } else {
+                alert('Login failed');
+            }
+
+        }
+
+        async function showSignUp() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const role = document.getElementById('role').value;
+
+            const response = await fetch('http://localhost:5139/api/auth/signup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Username: username, Password: password, Role: role })
+            });
+
+            if (response.ok) {
+                alert('Sign up successful. Redirecting to login page.');
+                window.location.href = 'login.html'; // Geri dönme işlemi
+            } else {
+                alert('Sign up failed');
+            }
+        }
+    </script>
+</body>
+</html>

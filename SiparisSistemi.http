@@ -1,0 +1,6 @@
+@SiparisSistemi_HostAddress = http://localhost:5139
+
+GET {{SiparisSistemi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,113 @@
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/appsettings.Development.json
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/appsettings.json
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/SiparisSistemi
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/SiparisSistemi.deps.json
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/SiparisSistemi.runtimeconfig.json
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/SiparisSistemi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/SiparisSistemi.pdb
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.csproj.AssemblyReference.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.AssemblyInfoInputs.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.AssemblyInfo.cs
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.csproj.CoreCompileInputs.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.MvcApplicationPartsAssemblyInfo.cs
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.MvcApplicationPartsAssemblyInfo.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisS.6DCA329A.Up2Date
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/refint/SiparisSistemi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.pdb
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.genruntimeconfig.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/ref/SiparisSistemi.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.RazorAssemblyInfo.cache
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/obj/Debug/net8.0/SiparisSistemi.RazorAssemblyInfo.cs
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/Google.Protobuf.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/MySql.Data.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/ZstdSharp.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+/Users/basaros/Desktop/c# project polisan/SiparisSistemi/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\appsettings.json
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\SiparisSistemi.exe
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\SiparisSistemi.deps.json
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\SiparisSistemi.runtimeconfig.json
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\SiparisSistemi.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\SiparisSistemi.pdb
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.csproj.AssemblyReference.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.AssemblyInfoInputs.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.AssemblyInfo.cs
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.csproj.CoreCompileInputs.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.RazorAssemblyInfo.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.RazorAssemblyInfo.cs
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisS.6DCA329A.Up2Date
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\refint\SiparisSistemi.dll
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.pdb
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\SiparisSistemi.genruntimeconfig.cache
+C:\Users\Başar Oğur\Desktop\polisan staj 1 kodlar\obj\Debug\net8.0\ref\SiparisSistemi.dll

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Page</title>
+    <link rel="stylesheet" href="newStyles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Employee Page</h1>
+    <h2>Orders</h2>
+    <ul id="orderList"></ul>
+
+    <script>
+        async function fetchOrders() {
+            try {
+                const response = await fetch('http://localhost:5139/api/orders');
+                const orders = await response.json();
+                console.log(orders);
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const orderList = document.getElementById('orderList');
+                orderList.innerHTML = '';  // Önceki listeyi temizle
+
+                orders.forEach(order => {
+                    
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `Müşteri: ${order.applicantName}, Ürün: ${order.productID}, Miktar: ${order.quantity}, Fiyat: ${order.price} TL, Adres: ${order.shippingAddress}, Onay Durumu: ${order.isApproved ? 'Onaylandı' : 'Beklemede'}`;
+                    
+                    if (!order.IsApproved) {
+                        // Onayla butonu
+                        const confirmButton = document.createElement('button');
+                        confirmButton.textContent = 'Onayla';
+                        confirmButton.addEventListener('click', async () => {
+                            await approveOrder(order.applicationID); // Onaylama işlemi
+                            listItem.textContent = `Müşteri: ${order.applicantName}, Ürün: ${order.productID}, Miktar: ${order.quantity}, Fiyat: ${order.price} TL, Onay Durumu: Onaylandı`;
+                            
+                            confirmButton.remove();  // Onayla butonunu kaldır
+                            rejectButton.remove();   // Reddet butonunu kaldır
+                
+                        });
+                        listItem.appendChild(confirmButton);
+                        
+                        // Reddet butonu (kırmızı renk)
+                        const rejectButton = document.createElement('button');
+                        rejectButton.textContent = 'Reddet';
+                        rejectButton.style.backgroundColor = 'red';  // Kırmızı renk
+                        rejectButton.style.color = 'white';  // Yazı rengini beyaz yapıyoruz
+                        rejectButton.style.marginLeft = '10px';  // Biraz boşluk ekliyoruz
+                        rejectButton.addEventListener('click', async () => {
+                            await rejectOrder(order.applicationID);
+                            listItem.textContent = `Müşteri: ${order.applicantName}, Ürün: ${order.productID}, Miktar: ${order.quantity}, Fiyat: ${order.price} TL, Onay Durumu: Reddedildi`;
+                            
+                            confirmButton.remove();  // Onayla butonunu kaldır
+                            rejectButton.remove();   // Reddet butonunu kaldır
+                            
+                        });
+                        listItem.appendChild(rejectButton);
+                    }
+
+                    orderList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error('Error fetching orders:', error);
+            }
+        }
+
+        // PUT isteği sırasında hata yakalamak için
+        async function approveOrder(orderId) {
+            try {
+                const response = await fetch(`http://localhost:5139/api/orders/${orderId}/confirm`, {
+                    method: 'PUT',
+                });
+
+                if (response.ok) {
+                    alert('Sipariş onaylandı!');
+                    fetchOrders();  // Siparişler güncellenir
+                } else {
+                    alert('Siparişi onaylama başarısız oldu.');
+                    console.log(await response.text());  // Hata mesajını logla
+                }
+            } catch (error) {
+                console.error('Error on approving order:', error);
+            }
+        }
+
+        async function rejectOrder(orderId) {
+            try {
+                const response = await fetch(`http://localhost:5139/api/orders/${orderId}/reject`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    alert('Sipariş reddedildi!');
+                    fetchOrders();  // Siparişler güncellenir
+                } else {
+                    alert('Siparişi reddetme başarısız oldu.');
+                    console.log(await response.text());  // Hata mesajını logla
+                }
+            } catch (error) {
+                console.error('Error on rejecting order:', error);
+            }
+        }
+
+        fetchOrders();  // Sayfa yüklendiğinde siparişleri getir
+    </script>
+</body>
+</html>

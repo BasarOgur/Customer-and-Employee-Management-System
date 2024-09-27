@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Page</title>
+    <link rel="stylesheet" href="newStyles.css">
+</head>
+<body>
+    <h1>Customer Page</h1>
+
+     <!-- Ürünlerin tablosu -->
+     <h3>Available Products</h3>
+     <table border="1" cellpadding="10" cellspacing="0">
+         <tr>
+             <th>Product ID</th>
+             <th>Product Name</th>
+             <th>Price (TL)</th>
+         </tr>
+         <tr>
+             <td>1</td>
+             <td>PoliMax Mat Boya</td>
+             <td>150 TL</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>PoliShield Dış Cephe</td>
+             <td>250 TL</td>
+         </tr>
+         <tr>
+             <td>3</td>
+             <td>PoliColor Parlak</td>
+             <td>180 TL</td>
+         </tr>
+         <tr>
+             <td>4</td>
+             <td>PoliSan Su Bazlı</td>
+             <td>200 TL</td>
+         </tr>
+         <tr>
+             <td>5</td>
+             <td>PoliCryl Akrilik</td>
+             <td>220 TL</td>
+         </tr>
+         <tr>
+             <td>6</td>
+             <td>PoliMax Saten Boya</td>
+             <td>230 TL</td>
+         </tr>
+     </table>
+     <br>
+
+    <form id="orderForm">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" required><br><br>
+
+        <label for="product">Product ID:</label>
+        <input type="number" id="product" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" readonly required><br><br> <!-- Otomatik gelecek, manuel girilemez -->
+
+        <label for="shippingAddress">Shipping Address:</label>
+        <input type="text" id="shippingAddress" required><br><br>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <script>
+        // Sayfa yüklendiğinde ürünlerin fiyatını gösteriyoruz
+        window.onload = function() {
+            document.getElementById('product').addEventListener('change', function() {
+                const productId = parseInt(this.value);
+                switch (productId) {
+                    case 1:
+                        document.getElementById('price').value = '150 TL';
+                        break;
+                    case 2:
+                        document.getElementById('price').value = '250 TL';
+                        break;
+                    case 3:
+                        document.getElementById('price').value = '180 TL';
+                        break;
+                    case 4:
+                        document.getElementById('price').value = '200 TL';
+                        break;
+                    case 5:
+                        document.getElementById('price').value = '220 TL';
+                        break;
+                    case 6:
+                        document.getElementById('price').value = '230 TL';
+                        break;
+                    default:
+                        document.getElementById('price').value = '0 TL';
+                }
+            });
+        };
+
+        // Sipariş formu gönderildiğinde backend'e POST isteği gönderiyoruz
+        document.getElementById('orderForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const productID = document.getElementById('product').value;
+            const quantity = document.getElementById('quantity').value;
+            const price = document.getElementById('price').value.replace(" TL", ""); // TL kısmını çıkarıyoruz
+            const shippingAddress = document.getElementById('shippingAddress').value;
+
+            const orderData = {
+                ProductID: parseInt(productID),  // ProductID integer olmalı
+                Quantity: parseInt(quantity),    // Quantity integer olmalı
+                Price: parseFloat(price),        // Fiyat otomatik olarak ürün seçildiğinde belirleniyor
+                ApplicantName: username,         // Kullanıcı adı dinamik olarak alınıyor
+                ShippingAddress: shippingAddress // Kullanıcının girdiği teslimat adresi
+            };
+
+            try {
+                const response = await fetch('http://localhost:5139/api/orders', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(orderData)
+                });
+
+                if (response.ok) {
+                    alert('Order placed successfully');
+                    document.getElementById('orderForm').reset();
+                    document.getElementById('price').value = '';  // Fiyatı sıfırla
+                } else {
+                    alert('Failed to place order');
+                }
+            } catch (error) {
+                console.error('Error placing order:', error);
+            }
+        });
+    </script>
+</body>
+</html>
